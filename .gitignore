@@ -1,0 +1,11 @@
+R
+.local
+.julia
+node_modules
+.pip
+.cache
+.conda
+.config
+.ipython
+nltk_data
+*.zip
