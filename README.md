@@ -14,3 +14,4 @@ It is based on [this blog](http://henning.kropponline.de/2016/09/24/running-pysp
 - Create conda environment and zip them. 
 - Set `spark.yarn.appMasterEnv.PYSPARK_PYTHON` with your conda environment in `spark-defaults.conf`
   - e.g.) `spark.yarn.appMasterEnv.PYSPARK_PYTHON=./NLTK/nltk_env/bin/python`
+- Set environmental variable: PYSPARK_PYTHON=./NLTK/nltk_env/bin/python
