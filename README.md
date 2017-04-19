@@ -6,8 +6,8 @@ It is based on [this blog](http://henning.kropponline.de/2016/09/24/running-pysp
 ## How to use
 
 1. Open workbench with Python and run `setup.sh`
-2. Execute `!pip install nltk` in your console
-2. Open pyspark_nltk.py and Run All
+2. Set environmental valiable `PYSPARK_PYTHON` as `./NLTK/nltk_env/bin/python`
+2. Reopen workbench and run pyspark_nltk.py
 
 ## Key points for destribute python packages with conda
 
